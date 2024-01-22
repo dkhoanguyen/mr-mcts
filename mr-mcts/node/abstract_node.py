@@ -65,7 +65,3 @@ class AbstractNode(ABC):
             if not action.is_feasible():
                 del potential_children[name]
         return potential_children
-
-    def _generate_feasible_actions(self, state: AbstractState) -> Dict[str, AbstractAction]:
-        """
-        """
