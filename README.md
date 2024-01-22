@@ -1,1 +1,1 @@
-# mr-mcts
+# Multi-robot Monte Carlo Tree Search
